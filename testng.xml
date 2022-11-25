@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="angkaPertama" value="10"></parameter>
+    <parameter name="angkaKedua" value="5"></parameter>
+    <parameter name="text" value="JuaraCoding"></parameter>
+    <test name = "test1">
+
+        <classes>
+            <class name = "com.juaracoding.featuretwo.ProcedureExecution" />
+            <class name="com.juaracoding.testng.TestCalculator" />
+            <class name="com.juaracoding.testng.TestCalculatorTwo" />
+        </classes>
+
+    </test>
+</suite>
